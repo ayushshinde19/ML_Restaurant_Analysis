@@ -1,0 +1,24 @@
+# Ignore common files and directories created by Python and Jupyter
+
+# Byte-code files
+*.pyc
+__pycache__/
+
+# Jupyter Notebook files
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Virtual environment
+venv/
+.venv/
+
+# IDE specific files (optional)
+.vscode/
+.idea/
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Folium map output (if you don't want to commit it)
+*.html
